@@ -1,0 +1,26 @@
+{
+  "name": "rollup-plugin-prisma-generate",
+  "version": "1.0.0",
+  "description": "A rollup plugin that generate @prisma/client automatically",
+  "author": "Luca",
+  "license": "ISC",
+  "repository": "lucacicada/rollup-plugin-prisma-generate",
+  "type": "module",
+  "main": "prisma-generate.mjs",
+  "module": "prisma-generate.mjs",
+  "types": "prisma-generate.d.ts",
+  "files": [
+    "prisma-generate.*"
+  ],
+  "keywords": [
+    "rollup",
+    "plugin",
+    "prisma",
+    "generate",
+    "@prisma/client"
+  ],
+  "peerDependencies": {
+    "picocolors": "*",
+    "rollup": "^2.0.0 || ^3.0.0"
+  }
+}
